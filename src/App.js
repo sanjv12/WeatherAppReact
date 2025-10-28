@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Searchbar from './components/SearchBar.jsx'
+import { AppProvider } from "./context/AppContext.jsx";
+import WeatherCard from './components/WeatherCard.jsx';
 function App() {
+  // const weather = useAppContext();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hi, Welcome to WeatherNow</h1>
+      <AppProvider>
+        <Searchbar/>  
+        <WeatherCard/>     
+      </AppProvider>
     </div>
   );
 }
