@@ -1,8 +1,10 @@
 🎯 Project Overview 
+    
     This is a simple weather forecast web application built using React and the Open-Meteo API.
 The app allows users to search for any city and instantly view real-time weather details such as temperature, humidity, wind speed, and sky conditions in a clean card-style UI.
 
 ⚙️ Features
+    
     🌍 Search weather by city name
     🌡️ Display current temperature, condition, humidity, wind, sunrise, and sunset
     ⚡ Fetches data using the Open-Meteo Forecast and Geocoding APIs
@@ -14,8 +16,7 @@ The app allows users to search for any city and instantly view real-time weather
     Styling: CSS
 
 🚀 How It Works
-    User enters a city name in the search bar.
-    The app uses the Open-Meteo Geocoding API to get latitude and longitude.
+    User enters a city name in the search bar.The app uses the Open-Meteo Geocoding API to get latitude and longitude.
     It then fetches real-time weather data from the Open-Meteo Forecast API.
     Weather details are displayed neatly in a styled card component.
 
