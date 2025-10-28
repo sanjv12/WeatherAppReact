@@ -1,5 +1,5 @@
 🎯 Project Overview 
-This is a simple weather forecast web application built using React and the Open-Meteo API.The app allows users to search for any city and instantly view real-time weather details such as temperature, humidity, wind speed, and sky conditions in a clean card-style UI.
+    This is a simple weather forecast web application built using React and the Open-Meteo API.The app allows users to search for any city and instantly view real-time weather details such as temperature, humidity, wind speed, and sky conditions in a clean card-style UI.
 
 ⚙️ Features
     
