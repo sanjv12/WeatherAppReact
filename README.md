@@ -21,7 +21,7 @@
 
 📦 Setup Instructions
     Clone the repository:
-        git clone <your-repo-url>
+        git clone https://github.com/sanjv12/WeatherAppReact
     Navigate to the project folder:
         cd weather-app
     Install dependencies:
